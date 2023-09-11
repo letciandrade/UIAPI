@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body{
+    background-color: #EADBC8;
+    color: #fff;
+}
+
+header{
+    background-color: #EADBC8 ;
+    height: 5rem;
+    text-align: center;
+}
+
+main{
+    background-color: #DAC0A3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100rem;
+}
+
+input{
+    border: none;
+    outline: none;
+    border-radius: 0.4rem;
+    width: 30rem;
+    height: 2rem;
+   text-align: center;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #EADBC8;
+    width: 40rem;
+    height: 30rem;
+    border-radius: 1.7rem;
+}
+
+.form div{
+    padding: 0.6rem;
+  
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.3rem;
+    font-weight: 700;
+    
+}
+
+.descri{
+    width: 30rem;
+    height: 5rem;
+}
+
+.submit{
+background-color: #EADBC8;
+font-weight: 700;
+font-size: 2rem;
+color: #fff;
+cursor: pointer;
+}
+
+.submit:hover{
+background-color: #fff;
+color: #000;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #EADBC8;
+    height: 10rem;
+}
+
+footer p{
+    font-weight: 700;
+}
+
